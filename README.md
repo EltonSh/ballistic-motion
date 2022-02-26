@@ -7,4 +7,4 @@ x(t+1) = x(t) + V(t)* dt
 V(t+1) = V(t) + (-g - (1/m)* k1 * V(t) - (1/m)* k2 * V(t)^2)* dt
 a(t) = -g - (1/m)* k1* V(t) - (1/m)* k2* V(t)^2
 The coefficients k1 = c1* r  and k2 = c2* r^2, where c1 and c2 model the air drag and are called the pressure term (dominates for small velocities) and the viscous term (dominates for large velocities). Their values for air are correspondingly: c1 = 3.1e-4 (kg/m)/s and c2 = 0.85 kg/m^3. 
-The plots that are produced and stored in the plots folder, are obtained for the above values of the coefficients and for the mmotion of a pebble with m=0.01kg and r=0.01m. 
+The plots that are produced and stored in the plots folder, are obtained for the above values of the coefficients and for the motion of a pebble with m=0.01kg and r=0.01m. 
